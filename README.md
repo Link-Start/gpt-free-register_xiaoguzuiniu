@@ -54,10 +54,10 @@ node --version
    - 域名邮箱无需准备邮箱素材，注册时自动生成随机地址
 
 # 5. 配置代理（如有需要）
-# 编辑 config/proxy.py 的 PROXY_POOL，写入你的代理地址
+编辑 config/proxy.py 的 PROXY_POOL，写入你的代理地址
 
 # 6. (可选) 启用 Codex 自动授权：填接码 key
-# 编辑 config/codex.py 的 SMS_API_KEY，或先把 ENABLE_CODEX_AUTO=False 跳过
+编辑 config/codex.py 的 SMS_API_KEY，或先把 ENABLE_CODEX_AUTO=False 跳过
 ```
 
 ## ▶️ 使用方式 1：命令行（CLI）
